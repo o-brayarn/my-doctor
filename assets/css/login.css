@@ -1,38 +1,69 @@
-.container{
-      width:100%;
-      padding-top: 10vh;
+body{
+    padding-top: 10vh;
 }
+
+.container{
+    width:100%;
+    margin: auto;
+    padding-top: 10vh;
+}
+
 .head{
-      font-size: 2rem;
-      font-weight: bold;
-      color: white;
-      width:fit-content;
-      margin: auto;
-      background-color: rgb(16, 229, 229);
-      padding:0.4rem 7rem;
-      border-radius: 10px;
-      
+    color:rgb(5, 253, 253);
+    text-shadow:-3px -2px 9px rgba(0,0,0,0.9);
+    font-size: 4rem;
+    font-weight: bold;
+    padding:1rem 10rem;
+    width:fit-content;
+    margin:auto;
+    border-radius: 10px;
+
 }
 
 .form{
-      width: 100%;
-      margin: auto;
-      display: flex;
-      justify-content:flex-end;
-      flex-direction: column;
-      padding-top: 10vh;
-      
+    width:100%;
+    margin: auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form div{
+    margin:3rem;
+}
+.form input{
+    width:45%;
+    border-radius: 10px;
+    border: 1px solid rgb(5, 253, 253);
+    padding:1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(5, 253, 253);
+}
+input[type="submit"]{
+    background: rgb(5, 253, 253);
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(5, 253, 253);
+    padding:1rem;
+}
+a{
+    color: rgb(5, 253, 253);
 }
 
-.form div{
-      width:40%;
-      margin: auto;
+.forgot{
+    color: rgb(5, 253, 253);
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 @media ( min-width:992px) {
       .container{
-          width:1200px;
+          width:900px;
           margin:auto;
+          background-color: rgb(231, 230, 230);
       }
       
   }
