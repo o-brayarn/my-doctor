@@ -10,6 +10,7 @@ body{
 
 .head{
     color:rgb(5, 253, 253);
+    font-family: 'Fredoka One', cursive;
     text-shadow:-3px -2px 9px rgba(0,0,0,0.9);
     font-size: 4rem;
     font-weight: bold;
@@ -22,6 +23,7 @@ body{
 
 .form{
     width:100%;
+    font-family: 'Roboto', sans-serif;
     margin: auto;
     padding-top: 5vh;
     display: flex;
@@ -51,6 +53,7 @@ input[type="submit"]{
 }
 
 .signup{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 @media ( min-width:992px) {
