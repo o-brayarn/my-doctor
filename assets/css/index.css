@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+}
+h1{
+    font-family: 'Fredoka One',cursive;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+    margin-bottom: 50px;
+}
+.logo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 43px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(103, 204, 204);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    padding: 0 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+button{
+    background: rgb(103, 204, 204);
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+
+.hero{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: auto;
+}
+.hero h1{
+    color: rgb(103, 204, 204);
+    font-size: 36px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8%;
+}
+.hero p{
+    font-size: 24px;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.consult-btn{
+    border-radius: 10px;
+}
+.image1{
+    width: 30rem;
+    border-radius: 30px;
+}
+
+.specialties-section{
+    margin: 10%;
+    display: block;
+}
+.specialties-head{
+    width: 20%;
+    margin: 0 50%;
+}
+.specialties-head h2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    padding: 5px 6px;
+    font-family: 'Robot', sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+
+.specialties-cards{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialties-cards div{
+    width: 30%;
+    border-radius: 20px;
+    padding: 5% 7%;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.specialties-cards p{
+    font-size: 24px;
+    font-family: 'Roboto',;
+}
+.p-one{
+    font-weight: bold;
+}
+.specialties-cards a{
+    text-decoration: none;
+    color: rgb(103, 204, 204);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#footer{
+    background: black;
+    color: white;
+    /* height: 40vh; */
+}
+.footer-divs{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px 80px;
+}
+.contact-div p{
+    font-size: 20px;
+}
+.footer-divs a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer-divs a:hover{
+    color: rgb(103, 204, 204);
+    transition: all .3s ease-out;
+}
+.footer-divs ul li{
+    list-style-type: none;
+    list-style: none;
+}
+
+.socials{
+    margin: 0% 40%;
+}
+.newsletter a{
+    background: rgb(103, 204, 204);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+.newsletter a:hover{
+    transition:all .4s ease-in-out;
+    background: black;
+    color: rgb(103, 204, 204);
+}
+.newsletter h1{
+    padding-bottom: 20px;
+}
+#mail{
+    padding:13px;
+}
+.r-rsvd{
+    margin: 0% 25%;
+    font-size: 24px;
+    font-family: 'Fredoka One', cursive;
+}
+@media ( min-width:992px) {
+    .container{
+        width:1200px;
+        margin:auto;
+    }
+    
+}
