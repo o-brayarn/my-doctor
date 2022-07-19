@@ -5,6 +5,16 @@
     margin: auto;
     padding-top: 10vh;
 }
+.error{
+    width:20%;
+    color:green;
+    margin:auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border:3px solid green;
+    padding: 1rem;
+}
 
 .head{
     color:rgb(5, 253, 253);
