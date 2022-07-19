@@ -51,3 +51,27 @@ button:hover{
     transform: scale(1.2);
     transition: all .5s ease-in-out;
 }
+
+.hero{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: auto;
+}
+.hero h1{
+    color: rgb(103, 204, 204);
+    font-size: 36px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8%;
+}
+.hero p{
+    font-size: 24px;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.consult-btn{
+    border-radius: 10px;
+}
