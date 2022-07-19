@@ -1,0 +1,36 @@
+.container{
+      width:100%;
+      padding-top: 10vh;
+}
+.head{
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      width:fit-content;
+      margin: auto;
+      background-color: rgb(16, 229, 229);
+      padding:0.4rem 7rem;
+      border-radius: 10px;
+      
+}
+
+.form{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      padding-top: 10vh;
+}
+.email, .password{
+      padding: 0rem 10rem;
+      background-color: red;
+}
+
+
+@media ( min-width:992px) {
+      .container{
+          width:1200px;
+          margin:auto;
+      }
+      
+  }
