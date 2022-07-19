@@ -49,16 +49,10 @@ input[type="submit"]{
     border: 1px solid rgb(5, 253, 253);
     padding:1rem;
 }
-a{
-    color: rgb(5, 253, 253);
-}
 
-.forgot{
-    color: rgb(5, 253, 253);
-    text-decoration: none;
-    font-size: 1.5rem;
+.signup{
+    text-align: center;
 }
-
 @media ( min-width:992px) {
       .container{
           width:900px;
