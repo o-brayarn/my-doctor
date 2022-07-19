@@ -117,3 +117,12 @@ button:hover{
     font-size: 24px;
     font-family: 'Roboto',;
 }
+.p-one{
+    font-weight: bold;
+}
+.specialties-cards a{
+    text-decoration: none;
+    color: rgb(103, 204, 204);
+    font-size: 24px;
+    font-weight: bold;
+}
