@@ -126,3 +126,9 @@ button:hover{
     font-size: 24px;
     font-weight: bold;
 }
+
+#footer{
+    background: black;
+    color: white;
+    /* height: 40vh; */
+}
