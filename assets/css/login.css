@@ -1,0 +1,76 @@
+
+
+.container{
+    width:100%;
+    margin: auto;
+    padding-top: 10vh;
+}
+.error{
+    width:20%;
+    color:green;
+    margin:auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border:3px solid green;
+    padding: 1rem;
+}
+
+.head{
+    color:rgb(5, 253, 253);
+    font-family: 'Fredoka One', cursive;
+    text-shadow:-3px -2px 9px rgba(0,0,0,0.9);
+    font-size: 4rem;
+    font-weight: bold;
+    padding:1rem 10rem;
+    width:fit-content;
+    margin:auto;
+    border-radius: 10px;
+
+}
+
+.form{
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form div{
+    margin:3rem;
+}
+.form input{
+    width:45%;
+    border-radius: 10px;
+    border: 1px solid rgb(5, 253, 253);
+    padding:1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(5, 253, 253);
+}
+input[type="submit"]{
+    background: rgb(5, 253, 253);
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgb(5, 253, 253);
+    padding:1rem;
+    cursor: pointer;
+}
+
+.signup{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+@media ( min-width:992px) {
+      .container{
+          width:900px;
+          margin:auto;
+          background-color: rgb(231, 230, 230);
+      }
+      
+  }
