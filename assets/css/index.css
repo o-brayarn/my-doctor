@@ -37,3 +37,17 @@ h1{
     color: black;
     font-weight: bold;
 }
+button{
+    background: rgb(103, 204, 204);
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
