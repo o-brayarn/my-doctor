@@ -79,3 +79,23 @@ button:hover{
     width: 30rem;
     border-radius: 30px;
 }
+
+.specialties-section{
+    margin: 10%;
+    display: block;
+}
+.specialties-head{
+    width: 20%;
+    margin: 0 50%;
+}
+.specialties-head h2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    padding: 5px 6px;
+    font-family: 'Robot', sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
