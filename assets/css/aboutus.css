@@ -17,7 +17,10 @@
     font-family:'Fredoka One', cursive;;
     }
     
-    
+    .sub-heading {
+    background-color: rgb(5, 253, 253);
+    width: 20%;
+    text-align: center;
     
     }
     .column{
