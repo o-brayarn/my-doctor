@@ -7,3 +7,21 @@
     font-family: 'Roboto', sans-serif;;
     }
     }
+    @media ( min-width:992px) {
+        .container{
+        width:1200px;
+        margin:auto;
+        }
+        body {
+        font-family: 'Roboto', sans-serif;;
+        }
+        }
+        
+        .heading {
+        margin: auto;
+        background-color: rgb(5, 253, 253);
+        color: white;
+        width: 15%;
+        text-align: center;
+        font-family:'Fredoka One', cursive;;
+        }
