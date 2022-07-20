@@ -257,7 +257,16 @@ button:hover{
 }
 
 .socials{
-    margin: 0% 40%;
+    margin: 0% 39%;
+    cursor: pointer;
+}
+.bx{
+    margin: 0.3rem 1rem;
+    font-size: 40px;
+}
+.bx:hover{
+    color: black;
+    /* background-color: #EFEEF1; */
 }
 .newsletter a{
     background: rgb(103, 204, 204);
@@ -279,10 +288,13 @@ button:hover{
     padding:13px;
 }
 .r-rsvd{
-    margin: 0% 25%;
+    margin: 2% 25%;
+    /* margin-bottom: 20%; */
+    padding: 23px;
     font-size: 24px;
     font-family: 'Fredoka One', cursive;
 }
+
 @media ( min-width:992px) {
     .container{
         width:1400px;
