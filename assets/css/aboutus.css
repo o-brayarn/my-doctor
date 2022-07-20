@@ -144,3 +144,10 @@
                         }
                         .row {
                         text-align: center;
+                        text-align: center;
+}
+.container h2:hover {
+cursor: pointer;
+line-height: 1.5;
+border-spacing: 10px 10em;
+}
