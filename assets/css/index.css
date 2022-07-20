@@ -196,6 +196,19 @@ button:hover{
     color: rgb(103, 204, 204);
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+    
+}
+.specialties-cards a:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.image2, .image3, .image4{
+    width: fit-content;
+    margin: 0% 30%;
 }
 
 #footer{
