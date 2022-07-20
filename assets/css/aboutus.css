@@ -138,3 +138,9 @@
                     display: table;
                     clear: both;
                     }
+                    .img {
+                        width: 80px;
+                        height: 80px;
+                        }
+                        .row {
+                        text-align: center;
