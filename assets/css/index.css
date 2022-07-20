@@ -48,6 +48,10 @@ h1{
     color: black;
     font-weight: bold;
 }
+.nav ul li a:hover{
+    color: rgb(103, 204, 204);
+    transition: all .4s ease;
+}
 button{
     background: rgb(103, 204, 204);
     width: fit-content;
