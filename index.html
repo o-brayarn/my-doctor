@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="assets/css/index.css">
     <title>MyDoctor</title>
 </head>
@@ -16,20 +18,26 @@
             <div class="nav-container">
                 <div class="logo"><a href="#">MyDoctor</a></div>
                 <div class="nav">
-                <ul>
-                    <li><a href="#" active>Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="" >Login</a></li>
-                <li><button class="book-apmt-btn">Book Appointment</button></li>
-                </ul>
+                    <ul>
+                        <li><a href="#" active>Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="" id="login">Login</a></li>
+                        <li><button class="book-apmt-btn">Book Appointment</ibutton></li>
+                    </ul>
+                </div>    
             </div>
         </nav>
+        <section class="search-box">
+            <input type="text" placeholder="What are you looking for?" >
+            <!-- <i class='bx bx-search' ></i> -->
+            <i class="material-symbols-rounded">search</i>
+        </section>
         <section class="hero">
             <div>
                 <h1>About Our Doctors</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio dicta atque corrupti fugit blanditiis vero quibusdam minus sit vitae obcaecati inventore, labore delectus at illo. Excepturi error maxime quidem nihil tempore voluptas amet sint ex deserunt veniam earum, consequatur provident, modi ipsam vero, sit omnis totam vitae blanditiis quas.</p>
-                <button class="consult-btn">Consult a doctor now</button>
+                <button class="consult-btn">Consult a doctor now <span class="material-symbols-rounded">chevron_right</span></button>
             </div>
             <div><img src="/assets/images/doctor.jpg" alt="" class="image1"></div>
         </section>
@@ -38,22 +46,22 @@
             <div class="specialties-head"><h2>Our Specialties</h2></div>
             <div class="specialties-cards">
                 <div class="practitioner-card">
-                    <img src="assets/images/top-speciality-gp.svg" alt="Stethoscope icon">
+                    <img src="assets/images/top-speciality-gp.svg" alt="Stethoscope icon" class="image2">
                     <p class="p-one">General Practitioner</p>
                     <p>Ksh.700</p>
-                    <a href="#">Consult Now</a>
+                    <a href="#">Consult Now <span class="material-symbols-rounded">chevron_right</span></a>
                 </div>
                 <div class="pediatrics-card">
-                    <img src="assets/images/top-speciality-pediatric.svg" alt="why is this child happy?">
+                    <img src="assets/images/top-speciality-pediatric.svg" alt="Smiling child" class="image3">
                     <p class="p-one">Pediatrics</p>
                     <p>Ksh.1,600</p>
-                    <a href="#">Consult Now</a>
+                    <a href="#">Consult Now <span class="material-symbols-rounded" class="image3">chevron_right</span></a>
                 </div>
                 <div class="gynae-card">
-                    <img src="assets/images/top-speciality-gynaecologist.svg" alt="Ooops!">
+                    <img src="assets/images/top-speciality-gynaecologist.svg" alt="Ooops!" class="image4">
                     <p class="p-one">Gynaecology</p>
                     <p>Ksh.2,000</p>
-                    <a href="#">Consult Now</a>
+                    <a href="#">Consult Now <span class="material-symbols-rounded">chevron_right</span></a>
                 </div>
             </div>
         </section>
