@@ -34,43 +34,6 @@
             <div class="signup">Don't have an account? <a href="signup.html">Sign up</a></div>
             <i class="fa-regular fa-face-saluting"></i>
       </div>
-      <script>
-            const submit = document.getElementById('submit');
-            const email = document.getElementById('email');
-            submit.addEventListener('click', function (e) {
-                  e.preventDefault();
-                  const email = document.getElementById('email').value;
-                  const password = document.getElementById('password').value;
-                  const error = document.querySelector('.error');
-                  const formobj = {}
-                  formobj.email = email.value;
-                  formobj.password = password.value;
-                  send(formobj);
-            });
-            function send(data){
-                  //post data using fetch
-                  fetch("http://127.0.0.1:5000/api/v1/login", {
-                        method: 'POST',
-                        body: JSON.stringify(data),
-                        headers: {
-                              'Content-Type': 'application/json'
-                        }
-                  })
-                        .then(res => res.json())
-                        .then(data => {
-                              if (data.error) {
-                                    error.style.display = 'block';
-                                    error.innerHTML = data.error;
-                              } else {
-                                    window.location.href = 'index.html';
-                              }
-                        })
-                        .catch(err => {
-                              console.log(err);
-                        });
-            }
-      </script>
-      
 </body>
 
 </html>
