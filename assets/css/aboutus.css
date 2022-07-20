@@ -3,11 +3,18 @@
     width:1200px;
     margin:auto;
     }
+<<<<<<< HEAD
     }
     body {
         font-family: 'Roboto', sans-serif;
         background-color: rgba(0,0,0,0.1);
         }
+=======
+    body {
+    font-family: 'Roboto', sans-serif;;
+    }
+    }
+>>>>>>> 384276b68d179278e8e220943f945b36cb92f32a
     
     .heading {
     margin: auto;
