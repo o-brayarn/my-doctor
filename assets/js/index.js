@@ -2,7 +2,7 @@ const loginBtn = document.querySelector('#login');
 
 loginBtn.addEventListener('click', function (e) {
       if (localStorage.getItem('token') == null) {
-            window.location.assign('../../signup.html');
+            window.location.assign('/../signup.html');
       }
       else {
             if (localStorage.getItem('login') == 'true') {
