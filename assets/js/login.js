@@ -73,7 +73,7 @@ submitLogin.addEventListener('click', function (e) {
       let obj = {}
       obj.email = email.value;
       obj.password = password.value;
-      send(obj, "http://127.0.0.1:5000/api/v1/login", "");
+      send(obj, "https://shrouded-brook-80843.herokuapp.com/api/v1/login", "");
       email.value = '';
       password.value = '';
       confirm.value = '';

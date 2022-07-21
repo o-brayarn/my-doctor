@@ -76,7 +76,7 @@ submitCreate.addEventListener('click', function (e) {
       obj.name = name.value;
       obj.email = email.value;
       obj.password = password.value;
-      send(obj, "http://127.0.0.1:5000/api/v1/register", "");
+      send(obj, "https://shrouded-brook-80843.herokuapp.com/api/v1/register", "");
       name.value = '';
       email.value = '';
       password.value = '';
