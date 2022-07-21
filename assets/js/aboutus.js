@@ -7,12 +7,16 @@ function myFunction() {
   const who = document.getElementById('who')
   who.addEventListener('click',function(){
     document.getElementById('x').style.display="block";
+    document.getElementById('a').style.display="none";
+    document.getElementById('z').style.display="none";
+    document.getElementById('y').style.display="none";
   })
   
   const vision = document.getElementById('vision')
   vision.addEventListener('click',function(){
     document.getElementById('y').style.display="block";
     document.getElementById('x').style.display="none";
+    document.getElementById('a').style.display="none";
   })
   const core = document.getElementById('core')
   core.addEventListener('click',function(){
