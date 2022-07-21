@@ -5,7 +5,6 @@ const errorVal = document.querySelector(".error");
 errorVal.innerHTML = "";
 function errorDisplay(message, status) {
       errorVal.innerHTML = "";
-      alert(message);
       let div = document.createElement('div');
       div.style.display = 'block';
       div.innerHTML = message;
@@ -63,7 +62,6 @@ function checkNull(...args) {
 
 
 submitLogin.addEventListener('click', function (e) {
-      alert()
       e.preventDefault();
       let email = document.getElementById('email');
       let password = document.getElementById('password');

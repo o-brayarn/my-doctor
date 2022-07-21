@@ -3,7 +3,6 @@ const submitCreate = document.getElementById('submit-create');
 errorVal.innerHTML = "";
 function errorDisplay(message, status) {
       errorVal.innerHTML = "";
-      alert(message);
       let div = document.createElement('div');
       div.style.display = 'block';
       div.innerHTML = message;
