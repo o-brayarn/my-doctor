@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+   background: rgba(0,0,0,0.1);
+    margin: auto;
+}
+h1{
+    font-family: 'Fredoka One',cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(103, 204, 204);
+}
+form{
+   /* position: relative; */
+   padding: 4rem 8rem;
+   display: flex;
+   justify-content: center;
+}
+form input{
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border:2px solid rgb(103, 204, 204);
+    /* width: 100%; */
+}
+input[type=text], select{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border-radius: 8px;
+    border:2px solid rgb(103, 204, 204);
+}
+label{
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+#appointment{
+    color: white;
+    background: rgb(103, 204, 204);
+    padding: 10px 40px;
+    margin: 2rem 4rem;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#appointment:hover{
+    background: black;
+    color: rgb(103, 204, 204);
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+@media ( min-width:992px) {
+    .container{
+        width:1400px;
+        margin:auto;
+    }
+    
+}
