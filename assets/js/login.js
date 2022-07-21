@@ -14,6 +14,7 @@ function errorDisplay(message, status) {
             div.style.border = '2px solid red';
       }
       else {
+            div.innerHTML = `<i class="fa-solid fa-check"></i>`
             div.style.color = 'green';
             div.style.border = '2px solid green';
       }
