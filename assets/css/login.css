@@ -5,15 +5,25 @@
     margin: auto;
     padding-top: 10vh;
 }
-.error{
-    width:20%;
-    color:green;
-    margin:auto;
+
+.error div{
+    width:fit-content;
+    font-size: 1rem;
+    color:red;
+    margin:1rem;
     font-weight: bold;
-    display: flex;
     justify-content: space-between;
-    border:3px solid green;
-    padding: 1rem;
+    border:4px solid red;
+    padding: 0.2rem;
+    border-radius: 5px;
+    margin: auto;
+}
+.error{
+    opacity:0;
+    transition: all 2s ease-in-out;
+}
+.error div i{
+    margin-right: 0.5rem;
 }
 
 .head{
