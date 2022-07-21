@@ -33,7 +33,7 @@ function send(obj, url, callback) {
                   if (xhr.responseText == 'success') {
                         errorDisplay("Success", 1);
                         window.localStorage.setItem('token', "1111");
-                        window.location.assign('../../consultation.html');
+                        window.location.assign('consultation.html');
                   }
                   else {
                         errorDisplay("Error", 0);
