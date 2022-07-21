@@ -1,29 +1,28 @@
-
-const submitLogin = document.getElementById('submit-login');
-
 const errorVal = document.querySelector(".error");
+const submitCreate = document.getElementById('submit-create');
 errorVal.innerHTML = ""
 function errorDisplay(message, status) {
       errorVal.innerHTML = "";
       let div = document.createElement('div');
       div.style.display = 'block';
-      div.innerHTML = message;
+     
       if (status == 0) {
-            div.innerHTML = `<i class="fa-solid fa-exclamation"></i>`
+            div.innerHTML = '<i class="fa-solid fa-exclamation"></i>'
             div.style.color = 'red';
             div.style.border = '2px solid red';
       }
       else {
+
             div.style.color = 'green';
             div.style.border = '2px solid green';
       }
+      div.innerHTML += message;
       errorVal.appendChild(div);
       setTimeout(function () {
             errorVal.innerHTML = "";
             errorVal.style.display = 'none';
       }, 3000);
 }
-
 
 
 function send(obj, url, callback) {
@@ -36,10 +35,11 @@ function send(obj, url, callback) {
                         window.location.assign('/consultation.html');
                   }
                   else {
-                        errorDisplay(xhr.responseText, 0);
+                        errorDisplay("Error", 0);
                   }
                   return;
             }
+
       }
       xhr.open('POST', url, true);
       xhr.setRequestHeader('Content-Type', 'application/json');
@@ -57,23 +57,29 @@ function checkNull(...args) {
 }
 
 
-
-submitLogin.addEventListener('click', function (e) {
+submitCreate.addEventListener('click', function (e) {
       e.preventDefault();
+      let name = document.getElementById('name');
       let email = document.getElementById('email');
       let password = document.getElementById('password');
-      if (checkNull(email, password)) {
+      let confirm = document.getElementById('conf-password');
+      if (checkNull(name, email, password, confirm)) {
             errorDisplay('All fields are required', 0);
             return
       }
+      if (password.value != confirm.value) {
+            errorDisplay('Passwords do not match', 0);
+            return;
+      }
       let obj = {}
+      obj.name = name.value;
       obj.email = email.value;
       obj.password = password.value;
-      send(obj, "http://127.0.0.1:5000/api/v1/login", "");
+      send(obj, "http://127.0.0.1:5000/api/v1/register", "");
+      name.value = '';
       email.value = '';
       password.value = '';
       confirm.value = '';
 
 }
 );
-
