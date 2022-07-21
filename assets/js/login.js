@@ -37,7 +37,7 @@ function send(obj, url, callback) {
                         errorDisplay("Success", 1);
                         localStorage.setItem('token', "1111");
                         localStorage.setItem('login', "true");
-                        window.location.assign('/consultation.html');
+                        window.location.assign('../../consultation.html');
                   }
                   else {
                         errorDisplay(xhr.responseText, 0);
