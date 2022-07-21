@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap"
@@ -17,113 +17,123 @@
 
 <body>
     <main class="container">
-        <div>
-            <h1 class="heading">About us</h1>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">About us</button>
+            <div id="myDropdown" class="dropdown-content">
+                <h3 id="who" class="subheading">Who we are</h3>
+                <h3 id="vision" class="subheading">Mission and Vision</h3>
+                <h3 id="core" class="subheading">Our Core Values</h3>
+                <h3 id="collaborators" class="subheading">Our Collaborators</h3>
+            </div>
         </div>
-        <div class="who">
-            <h3 class="sub-heading">Who we are</h3>
-            <p> MyDoctor is a telemedicine solution aimed at providing
-                professional virtual consultation at a patient’s convenience, with easy
-                access to qualified doctors and nurses 24/7/365.Our services are an extension of the
-                physical and walk in services provided by our collaborator hospitals across the country.
-                You can also use our platform to consult a mental health expert or dentist.
+            <section class="main-container">
+                <div id="x">
+                    <p> MyDoctor is a telemedicine solution aimed at providing
+                        professional virtual consultation at a patient’s convenience, with easy
+                        access to qualified doctors and nurses 24/7/365.Our services are an extension of the
+                        physical and walk in services provided by our collaborator hospitals across the country.
+                        You can also use our platform to consult a mental health expert or dentist.
+                    </p>
+                </div>
+                <div id="y">
+                    <div class="mission">
+                        <div class="row">
+                            <div class="column">
+                                <img class="img" src="assets/images/mis.png" alt="mission image">
+                                <h4>Mission</h4>
+                                <p>
+                                To provide quality, fast and affordable telemedicine services to patients 24/7/365.
+                                with consistently high service level and utmost customer satisfaction
+                                </p>
+                            </div>
+                            <div class="column">
+                                <img class="img" src="assets/images/vision.jpeg" alt="vision image">
+                                <h4>Vision</h4>
+                                <p>
+                                To become the pioneering and global leader in providing remote telemedicine services
+                                by constantly driving down the cost of healthcare and enhancing the patient experience
+                                through the application of advanced mobile phone and web-based telehealth solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="z">
+                    <div class="values"></div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img" src="assets/images/respect.webp" alt="respect image">
+                            <h4>Respect</h4>
+                            <p>We consider respect for collaborators, patients, staff and
+                                society at large a core aspect of how we conduct
+                                our relationship in each service that we offer.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img class="img" src="assets/images/privacy.webp" alt="privacy image">
+                            <h4> Privacy and confidentiality</h4>
+                            <p> We enhance the privacy and security of patient data and have all safeguards
+                                ready to avoid infringement and unauthorized data access.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img class="img" src="assets/images/trust.webp" alt="privacy image">
+                            <h4>Trust</h4>
+                            <p>Our relationships are honest, authentic, and open. We
+                                pride ourselves on the fact that we keep our
+                                commitments. Our word is our promise.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img class="img" src="assets/images/customer.webp" alt="privacy image">
+                                <h4>Customer-focus</h4>
+                                <p>We strive to go above and beyond in what we bring to
+                                    every professional relationship, not just meeting,
+                                    but exceeding, expectations at every turn.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img class="img" src="assets/images/innovation.webp" alt="privacy image">
+                                <h4>Innovation</h4>
+                                <p>At MyDoctor, innovation is a mindset. We work to stay
+                                    future-focused and committed to bringing new ideas to
+                                    life that generate differentiated value for everyone.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img class="img" src="assets/images/innovation.webp" alt="privacy image">
+                                <h4>Passion</h4>
+                                <p>We love what we do and it shows. Passion makes the difference
+                                    between just doing something and doing it well.
+                                    It’s the fire that drives our purpose and our daily lives.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div id="a">
+            <p>Our telemedicine offerings stand out from others because we understand that you need options and a
+                full spectrum of technology capabilities.
+                Thus, we have several collaborators in the healthcare industry including hospitals, pharmacies, and
+                laboratories. Some of our key collaboratoes include;</p>
+            <ul>
+                <li>ABC General Hospital</li>
+                <li>Afyabora Pharmaceuticals</li>
+                <li>BestHealth Level 5 Hospital</li>
+                <li>Careforyou Laboratory</li>
+                <li>Ushindi Level 4 Hospital</li>
+                <li>Plainsview Private Hospital</li>
+                <li>DEF Hospital</li>
+            </ul>
+           <p> Note: Any healthcare organization is welcome to work with us. Kindly reach us through our contact
+            information in the footer section.
             </p>
         </div>
-        <div class="mission">
-            <h3 class="sub-heading">Mission & Vision</h3>
-            <div class="row">
-                <div class="column">
-                    <img class="img" src="assets/images/mis.png" alt="mission image">
-                    <p>
-                    <h4>Mission</h4>
-                    To provide quality, fast and affordable telemedicine services to patients 24/7/365.
-                    with consistently high service level and utmost customer satisfaction
-                    </p>
-                </div>
-                <div class="column">
-                    <img class="img" src="assets/images/vision.jpeg" alt="vision image">
-                    <p>
-                    <h4>Vision</h4>
-                    To become the pioneering and global leader in providing remote telemedicine services
-                    by constantly driving down the cost of healthcare and enhancing the patient experience
-                    through the application of advanced mobile phone and web-based telehealth solutions.
-                    </p>
-                </div>
-            </div>
+        <div>
         </div>
-        <div class="values">
-            <h3 class="sub-heading">Our Core Values</h3>
-            <div class="row">
-                <div class="col">
-                    <img class="img" src="assets/images/respect.webp" alt="respect image">
-                    <h4>Respect</h4>
-                    <p>We consider respect for collaborators, patients, staff and
-                        society at large a core aspect of how we conduct
-                        our relationship in each service that we offer.
-                    </p>
-                </div>
-                <div class="col">
-                    <img class="img" src="assets/images/privacy.webp" alt="privacy image">
-                    <h4> Privacy and confidentiality</h4>
-                    <p> We enhance the privacy and security of patient data and have all safeguards
-                        ready to avoid infringement and unauthorized data access.
-                    </p>
-                </div>
-                <div class="col">
-                    <img class="img" src="assets/images/trust.webp" alt="privacy image">
-                    <h4>Trust</h4>
-                    <p>Our relationships are honest, authentic, and open. We
-                        pride ourselves on the fact that we keep our
-                        commitments. Our word is our promise.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img class="img" src="assets/images/customer.webp" alt="privacy image">
-                        <h4>Customer-focus</h4>
-                        <p>We strive to go above and beyond in what we bring to
-                            every professional relationship, not just meeting,
-                            but exceeding, expectations at every turn.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <img class="img" src="assets/images/innovation.webp" alt="privacy image">
-                        <h4>Innovation</h4>
-                        <p>At MyDoctor, innovation is a mindset. We work to stay
-                            future-focused and committed to bringing new ideas to
-                            life that generate differentiated value for everyone.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <img class="img" src="assets/images/innovation.webp" alt="privacy image">
-                        <h4>Passion</h4>
-                        <p>We love what we do and it shows. Passion makes the difference
-                            between just doing something and doing it well.
-                            It’s the fire that drives our purpose and our daily lives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h3 class="sub-heading">Our Collaborators</h3>
-                <p>Our telemedicine offerings stand out from others because we understand that you need options and a
-                    full spectrum of technology capabilities.
-                    Thus, we have several collaborators in the healthcare industry including hospitals, pharmacies, and
-                    laboratories. Some of our key collaboratoes include;
-                <ul>
-                    <li>ABC General Hospital</li>
-                    <li>Afyabora Pharmaceuticals</li>
-                    <li>BestHealth Level 5 Hospital</li>
-                    <li>Careforyou Laboratory</li>
-                    <li>Ushindi Level 4 Hospital</li>
-                    <li>Plainsview Private Hospital</li>
-                    <li>DEF Hospital</li>
-                </ul>
-                Note: Any healthcare organization is welcome to work with us. Kindly reach us through our contact
-                information in the footer section.
-                </p>
-            </div>
-        </div>
+        </section>
+        <script src="assets/js/aboutus.js"></script>
     </main>
 </body>
 
