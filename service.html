@@ -17,137 +17,147 @@
 
 <body>
     <main class="container">
-        <div class="heading">
-            <h1>Services</h1>
-        </div>
-        <div class="subheading">
-            <h2>Virtual Consultation</h2>
-        </div>
-        <p>We offer virtual consultation for patients requiring any of our existing services below.</p>
-
-        <div class="allservices">
-            <div class="services">
-                <div>
-                    <img src="assets/images/generalaute.jpeg" alt="General Acute icon" class="generalimage">
-                </div>
-                <div class="generalcontent">
-                    <h3>General Acute Care</h3>
-                    <p>We are equipped and staffed to provide short-term, inpatient and outpatient medical and surgical
-                        services
-                        for many different conditions and illnesses and provide continuous nursing services.</p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/dentalservices.png" alt="tooth" class="dentalimage">
-                </div>
-                <div class="dentistcontent">
-                    <h3>Dental Services</h3>
-                    <p>We take a great pride in the quality of our dentistry and always wish to make your visit a
-                        pleasant
-                        experience.Our aim is good dental health for you and your family. As your primary care dental
-                        provider,
-                        our dentists diagnose, treat, and manage your overall oral healthcare needs. We also offer
-                        orthodontic
-                        services including gum care, root canals, fillings, crowns, veneers, bridges, and preventive
-                        education
-                        with the primary mission to create happy, healthy smiles not just through our magnificent
-                        orthodontic
-                        treatments, but also through our charming, in-office hospitality. Comfort and success are the
-                        name of
-                        the game as we strive to re position, straighten and perfect your beautiful smile.</p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/gynaecology.jpeg" alt="pregnant woman" class="gynaecologyimage">
-                </div>
-                <div class="gynaecologycontent">
-                    <h3>Gynaecology</h3>
-                    <p>Our gynecologists give reproductive and sexual health services that include pelvic exams, Pap
-                        tests,
-                        cancer screenings, and testing and treatment for vaginal infections. They diagnose and treat
-                        reproductive system disorders such as endometriosis, infertility, ovarian cysts, and pelvic
-                        pain. They
-                        may also care for people with ovarian, cervical, and other reproductive cancers. Some of our
-                        gynecologists also practice as obstetricians and give care during pregnancy and birth.</p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/pediatrics.jpeg" alt="baby" class="pediatricsimage">
-                </div>
-                <div class="pediatricscontent">
-                    <h3>Pediatrics</h3>
-                    <p>Our vision is to have sick children cared for by trained pediatricians providing quality
-                        care.</p>
-                </div>
-            </div>
-
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/homebasedcare.png" alt="home" class="homeimage">
-                </div>
-                <div class="homebasedcontent">
-                    <h3>Home-Based Care</h3>
-                    <p>Home Based Care is supportive care provided in the home which is often more cost-effective
-                        and preferred.
-                        Our licenced healthcare professionals and trained caregivers provide medical care including
-                        rehabilitative assistance , care and support with meeting basic activities of daiy living
-                        such as
-                        grooming, bathing, feeding, toilet support, medication administration etc. Home care can be
-                        provided to
-                        all ages from pediatric care to care for older adults. </p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/psychosocial.jpeg" alt="the brain" class="psychosocialimage">
-                </div>
-                <div class="psychosocialcontent">
-                    <h3>Psychosocial support</h3>
-                    <p>We offer specialized psychosocial support aimed at relieving stressful problems aggravated by
-                        life
-                        situations, crises, and diseases. Our aim is to equip people who come to us with the ability
-                        to deal
-                        with very demanding situations and life realities in a friendly, yet professional,
-                        confidential and
-                        comfortable environment. Patients are empowered to reconstruct, strengthen and get their
-                        lives on track
-                        while maintaining flourishing relationships in the family, in marriage and in communities.
-                    </p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div>
-                    <img src="assets/images/ent.jpg" alt="ENT" class="entimage">
-                </div>
-                <div class="entcontent">
-                    <h3>Ear,Nose and Throat Care</h3>
-                    <p>Our ENT department consists of a highly skilled team of ENT specialists comprising of a
-                        Surgeon,
-                        Audiologist and a Nurse who deliver high quality care to adult and paediatric patients. We
-                        provide
-                        treatment for symptoms affecting the ear, nose or throat, as well as a range of audiological
-                        investigations and rehabilitation for patients through different clinics.</p>
-                </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Services</button>
+            <div id="myDropdown" class="dropdown-content">
+                <h2 id="virtual" class="subheading">Virtual Consultation</h2>
+                <h2 id="interpreter" class="subheading">Interpreter Services</h2>
             </div>
         </div>
-        <div class="subheading">
-            <h2>Interpreter Services</h2>
+
+        <div id="virtualjs">
+
+            <p>We offer virtual consultation for patients requiring any of our existing services below.</p>
+
+            <div class="allservices">
+                <div class="services">
+                    <div>
+                        <img src="assets/images/generalaute.jpeg" alt="General Acute icon" class="generalimage">
+                    </div>
+                    <div class="generalcontent">
+                        <h3>General Acute Care</h3>
+                        <p>We are equipped and staffed to provide short-term, inpatient and outpatient medical and
+                            surgical
+                            services
+                            for many different conditions and illnesses and provide continuous nursing services.</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/dentalservices.png" alt="tooth" class="dentalimage">
+                    </div>
+                    <div class="dentistcontent">
+                        <h3>Dental Services</h3>
+                        <p>We take a great pride in the quality of our dentistry and always wish to make your visit a
+                            pleasant
+                            experience.Our aim is good dental health for you and your family. As your primary care
+                            dental
+                            provider,
+                            our dentists diagnose, treat, and manage your overall oral healthcare needs. We also offer
+                            orthodontic
+                            services including gum care, root canals, fillings, crowns, veneers, bridges, and preventive
+                            education
+                            with the primary mission to create happy, healthy smiles not just through our magnificent
+                            orthodontic
+                            treatments, but also through our charming, in-office hospitality. Comfort and success are
+                            the
+                            name of
+                            the game as we strive to re position, straighten and perfect your beautiful smile.</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/gynaecology.jpeg" alt="pregnant woman" class="gynaecologyimage">
+                    </div>
+                    <div class="gynaecologycontent">
+                        <h3>Gynaecology</h3>
+                        <p>Our gynecologists give reproductive and sexual health services that include pelvic exams, Pap
+                            tests,
+                            cancer screenings, and testing and treatment for vaginal infections. They diagnose and treat
+                            reproductive system disorders such as endometriosis, infertility, ovarian cysts, and pelvic
+                            pain. They
+                            may also care for people with ovarian, cervical, and other reproductive cancers. Some of our
+                            gynecologists also practice as obstetricians and give care during pregnancy and birth.</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/pediatrics.jpeg" alt="baby" class="pediatricsimage">
+                    </div>
+                    <div class="pediatricscontent">
+                        <h3>Pediatrics</h3>
+                        <p>Our vision is to have sick children cared for by trained pediatricians providing quality
+                            care.</p>
+                    </div>
+                </div>
+
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/homebasedcare.png" alt="home" class="homeimage">
+                    </div>
+                    <div class="homebasedcontent">
+                        <h3>Home-Based Care</h3>
+                        <p>Home Based Care is supportive care provided in the home which is often more cost-effective
+                            and preferred.
+                            Our licenced healthcare professionals and trained caregivers provide medical care including
+                            rehabilitative assistance , care and support with meeting basic activities of daiy living
+                            such as
+                            grooming, bathing, feeding, toilet support, medication administration etc. Home care can be
+                            provided to
+                            all ages from pediatric care to care for older adults. </p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/psychosocial.jpeg" alt="the brain" class="psychosocialimage">
+                    </div>
+                    <div class="psychosocialcontent">
+                        <h3>Psychosocial support</h3>
+                        <p>We offer specialized psychosocial support aimed at relieving stressful problems aggravated by
+                            life
+                            situations, crises, and diseases. Our aim is to equip people who come to us with the ability
+                            to deal
+                            with very demanding situations and life realities in a friendly, yet professional,
+                            confidential and
+                            comfortable environment. Patients are empowered to reconstruct, strengthen and get their
+                            lives on track
+                            while maintaining flourishing relationships in the family, in marriage and in communities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div>
+                        <img src="assets/images/ent.jpg" alt="ENT" class="entimage">
+                    </div>
+                    <div class="entcontent">
+                        <h3>Ear,Nose and Throat Care</h3>
+                        <p>Our ENT department consists of a highly skilled team of ENT specialists comprising of a
+                            Surgeon,
+                            Audiologist and a Nurse who deliver high quality care to adult and paediatric patients. We
+                            provide
+                            treatment for symptoms affecting the ear, nose or throat, as well as a range of audiological
+                            investigations and rehabilitation for patients through different clinics.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p>Our medical interpreters are culturally competent, extensively trained in medical terminology and are available within seconds to bridge cultural gaps. They also eliminate barriers among the Deaf and Hard of Hearing patients.  N/B. If in need of this service, kindly select during your virtual check-in procedure.</p>
+        <div id="interpreterjs">
+            <p>Our medical interpreters are culturally competent, extensively trained in medical terminology and are
+                available within seconds to bridge cultural gaps. They also eliminate barriers among the Deaf and
+                Hard of Hearing patients. N/B. If in need of this service, kindly select during your virtual
+                check-in procedure.</p>
+        </div>
     </main>
 
 
 
-    <script src="./assets/js/services.js"></script>
+    <script src="assets/js/services.js"></script>
 </body>
 
 </html>
