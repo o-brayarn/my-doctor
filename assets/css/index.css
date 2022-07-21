@@ -265,8 +265,16 @@ button:hover{
     font-size: 40px;
 }
 .bx:hover{
-    color: black;
-    /* background-color: #EFEEF1; */
+    transform: scale(1.5);
+    transition: all .4s ease-in-out;
+}
+#insta{
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #285AEB 90%); */
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    background-clip: text; /*defines the standard property for compatibility*/
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
 }
 .newsletter a{
     background: rgb(103, 204, 204);
@@ -302,3 +310,26 @@ button:hover{
     }
     
 }
+
+/* @media (max-width: 1240px){
+    .nav-container{
+        display: flex;
+        justify-content: space-around;
+        padding-top:30px;
+        margin-bottom: 30px;
+        width: fit-content;
+    }
+    .container{
+        width: 90%;
+    }
+    .hero{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+    }
+    .image1{
+        width: 20rem;
+    }
+} */
