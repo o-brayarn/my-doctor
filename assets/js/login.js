@@ -35,7 +35,8 @@ function send(obj, url, callback) {
             if (xhr.readyState == 4 && xhr.status == 200) {
                   if (xhr.responseText == 'success') {
                         errorDisplay("Success", 1);
-                        window.localStorage.setItem('token', "1111");
+                        localStorage.setItem('token', "1111");
+                        localStorage.setItem('login', "true");
                         window.location.assign('/consultation.html');
                   }
                   else {
