@@ -2,9 +2,10 @@
 const submitLogin = document.getElementById('submit-login');
 
 const errorVal = document.querySelector(".error");
-errorVal.innerHTML = ""
+errorVal.innerHTML = "";
 function errorDisplay(message, status) {
       errorVal.innerHTML = "";
+      alert(message);
       let div = document.createElement('div');
       div.style.display = 'block';
       div.innerHTML = message;
@@ -17,10 +18,12 @@ function errorDisplay(message, status) {
             div.style.color = 'green';
             div.style.border = '2px solid green';
       }
+      div.innerHTML += message;
       errorVal.appendChild(div);
+      errorVal.style.opacity = '1';
       setTimeout(function () {
             errorVal.innerHTML = "";
-            errorVal.style.display = 'none';
+            errorVal.style.opacity = '0';
       }, 3000);
 }
 
@@ -59,6 +62,7 @@ function checkNull(...args) {
 
 
 submitLogin.addEventListener('click', function (e) {
+      alert()
       e.preventDefault();
       let email = document.getElementById('email');
       let password = document.getElementById('password');

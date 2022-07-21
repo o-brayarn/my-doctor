@@ -17,7 +17,13 @@
     padding: 0.2rem;
     border-radius: 5px;
     margin: auto;
-    transition: all 0.3s ease-in-out;
+}
+.error{
+    opacity:0;
+    transition: all 2s ease-in-out;
+}
+.error div i{
+    margin-right: 0.5rem;
 }
 
 .head{

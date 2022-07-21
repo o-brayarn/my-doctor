@@ -1,26 +1,27 @@
 const errorVal = document.querySelector(".error");
 const submitCreate = document.getElementById('submit-create');
-errorVal.innerHTML = ""
+errorVal.innerHTML = "";
 function errorDisplay(message, status) {
       errorVal.innerHTML = "";
+      alert(message);
       let div = document.createElement('div');
       div.style.display = 'block';
-     
+      div.innerHTML = message;
       if (status == 0) {
-            div.innerHTML = '<i class="fa-solid fa-exclamation"></i>'
+            div.innerHTML = `<i class="fa-solid fa-exclamation"></i>`
             div.style.color = 'red';
             div.style.border = '2px solid red';
       }
       else {
-
             div.style.color = 'green';
             div.style.border = '2px solid green';
       }
       div.innerHTML += message;
       errorVal.appendChild(div);
+      errorVal.style.opacity = '1';
       setTimeout(function () {
             errorVal.innerHTML = "";
-            errorVal.style.display = 'none';
+            errorVal.style.opacity = '0';
       }, 3000);
 }
 
