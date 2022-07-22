@@ -17,8 +17,8 @@
       <form>
         <div class="form-container">
           <div>
-            <label>Phone Number</label>
-            <input type="number" required />
+            <label>Email</label>
+            <input type="email" id="email" required />
           </div>
           <div>
             <label>Gender</label>
@@ -28,17 +28,17 @@
           </div>
           <div>
             <label>Do you need an interpreter?</label>
-            <input type="radio"> <span>Yes</span>
-            <input type="radio"> <span>No</span>
+            <input type="radio" name="inter" id="yes"> <span>Yes</span>
+            <input type="radio" name="inter" id="no"> <span>No</span>
           </div>
           <div>
             <label>Address</label>
-            <input type="text" required />
+            <input type="text" id="address" required />
           </div>
           <div>
             <label>Country of Residence</label>
             <select id="country">
-                <option value="country">Select Country</option>
+                <option value="" selected disabled>Select Country</option>
                 <option value="kenya">Kenya</option>
                 <option value="uganda">Uganda</option>
                 <option value="tanzania">Tanzania</option>
@@ -47,19 +47,24 @@
           </div>
           <div>
             <label>Preferred date of Appointment</label>
-            <input type="text" required />
+            <input type="date" id="date" required />
           </div>
           <div>
             <label>Specialty</label>
-            <input type="text" required />
+            <input type="text" id="speciality" required />
           </div>
           <div>
             <label>Primary Medical Issue</label>
-            <input type="text" required />
+            <input type="text" id="issue" required />
           </div>
-          <button type="submit" id="appointment">Book Appointment</button>
+          <input type="submit" id="appointment" value="Book Appointment">
         </div>
       </form>
+      <div class="cc">
+        
+    </div>
     </main>
+
+    <script src="assets/js/consult.js"></script>
   </body>
 </html>
