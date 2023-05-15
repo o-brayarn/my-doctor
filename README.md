@@ -4,46 +4,55 @@
 
 ## Table of Content
 
-+ [Description](#description)
-+ [Installation Requirement](#Installation)
-+ [Technology Used](#technology-used)
-+ [Reference](#reference)
-+ [Licence](#licence)
-+ [Authors Info](#author-Info)
+- [my-doctor](#my-doctor)
+    - [By Jackson Kahono, Grace Njuguna, Mercy Chebet and Brayarn Oduor](#by-jackson-kahono-grace-njuguna-mercy-chebet-and-brayarn-oduor)
+  - [Table of Content](#table-of-content)
+  - [Description](#description)
+  - [Installation](#installation)
+    - [Requirements](#requirements)
+    - [Installation Process](#installation-process)
+  - [Technology Used](#technology-used)
+  - [Reference](#reference)
+  - [Licence](#licence)
+  - [Authors Info](#authors-info)
 
 ## Description
+
 <p>This is a project that was birthed from a gap in healthcare settings whereby patients have a negative hospital experience due to long waiting time particularly patients with minor health issues or those that require consultation services. Our project therefore creates a platform where registered users can book a virtual consultation for diverse healthcare problems.</p>
 
 ## Installation
 
 ### Requirements
 
-* Any web browser on any device eg android, windows etc
+- Any web browser on any device eg android, windows etc
 
-* Access to an internet connection.
+- Access to an internet connection.
 
 ### Installation Process
-* Run the index.html on any web browser
 
-[Go Back to the top](https://github.com/Jackson-Kahono/my-doctor)
+- Run the index.html on any web browser
+
+[Go Back to the top](https://github.com/o-brayarn/my-doctor)
+
 ## Technology Used
-* HTML - is the markup language used to build the structure of the pages.
 
-* CSS - is the Cascading Style Sheets used to style the pages and make it visually appealing
+- HTML - is the markup language used to build the structure of the pages.
 
-* JavaScript - is the Programming Language for the Web,it can update and change both HTML and CSS and can calculate, manipulate and validate data.
+- CSS - is the Cascading Style Sheets used to style the pages and make it visually appealing
+
+- JavaScript - is the Programming Language for the Web,it can update and change both HTML and CSS and can calculate, manipulate and validate data.
 
 ## Reference
-* 
-Moringa School Course Content
 
-[Go Back to the top](https://github.com/Jackson-Kahono/my-doctor)
+- Moringa School Course Content
+
+[Go Back to the top](https://github.com/o-brayarn/my-doctor)
 
 ## Licence
 
 MIT License
 
-Copyright (c) 2022 Jackson Kahono
+Copyright (c) 2022 Brayarn Ogeda
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -63,7 +72,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](https://github.com/Jackson-Kahono/my-doctor)
+[Go Back to the top](https://github.com/o-brayarn/my-doctor)
 
 ## Authors Info
 
@@ -71,9 +80,9 @@ SOFTWARE.
 <p> Slack Profile: @JacksonKiburu </p>
 <p> Slack Profile: @MercyChebet </p>
 <p> Slack Profile: @Brainy </p>
-<p> Email Address: [jackson.kahono@student.moringaschool.com] </p>
-<p> Email Address: [grace.njuguna@student.moringaschool.com] </p>
-<p>Email Address: [brayarn.oduor@student.moringaschool.com]</p>
-<p>Email Address: bercy.chebet@student.moringaschool.com</p>
+<p> Email Address: jackson.kahono@student.moringaschool.com</p>
+<p> Email Address: grace.njuguna@student.moringaschool.com</p>
+<p> Email Address: brayarn.oduor@student.moringaschool.com</p>
+<p> Email Address: bercy.chebet@student.moringaschool.com</p>
 
-[Go Back to the top](https://github.com/Jackson-Kahono/my-doctor)
+[Go Back to the top](https://github.com/o-brayarn/my-doctor)
