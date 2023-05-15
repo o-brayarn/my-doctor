@@ -82,7 +82,7 @@ SOFTWARE.
 <p> Slack Profile: @Brainy </p>
 <p> Email Address: jackson.kahono@student.moringaschool.com</p>
 <p> Email Address: grace.njuguna@student.moringaschool.com</p>
-<p> Email Address: brayarn.oduor@student.moringaschool.com</p>
+<p> Email Address: brayarnogeda@gmail.com</p>
 <p> Email Address: bercy.chebet@student.moringaschool.com</p>
 
 [Go Back to the top](https://github.com/o-brayarn/my-doctor)
